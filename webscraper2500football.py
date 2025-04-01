@@ -10,7 +10,7 @@ PROJECT_DIR = "C:\\Users\\jfbaa\\PycharmProjects\\ds2500\\2500 project" # Explic
 
 driver = webdriver.Chrome()
 
-seasons_wanted = list(reversed(range(2008, 2024)))
+seasons_wanted = list(reversed(range(2005, 2020)))
 
 # urls
 root_url = 'https://www.oddsportal.com/football/england/premier-league/'
