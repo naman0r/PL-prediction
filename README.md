@@ -23,6 +23,10 @@ FBref (Player & Advanced Team Stats)
    * XGBoost or LightGBM – Advanced classification/regression models (optional, for better performance)
    * Matplotlib, Seaborn, Plotly – Visualizations
   
-
 ## By Friday, March 28th: 
 - Javier will update naman on how to proceed, exact models we can use, etc. 
+
+## Web scraper
+Match details (Date, Teams, Final Score)
+Betting Odds (Home Win, Draw, Away Win) For Premier League
+It covers the seasons 2005-2006 to 2019-2020 specifically.
