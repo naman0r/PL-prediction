@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import time
+import os
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
@@ -15,8 +16,11 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import GridSearchCV
 
 
-
-df = pd.read_csv(r"/content/processed_matches.csv")
+# Determine the absolute path to the directory containing the script
+script_dir = os.path.dirname(os.path.abspath(__file__))
+# Construct the path to the CSV file relative to the script's directory
+csv_path = os.path.join(script_dir, "processed_matches.csv")
+df = pd.read_csv(csv_path)
 
 
 #dropping columns one wouldn't have before an actual match
